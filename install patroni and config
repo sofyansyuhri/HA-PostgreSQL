@@ -1,0 +1,23 @@
+sudo dnf update
+
+sudo hostnamectl set-hostname nodeN
+
+sudo dnf install net-tools
+
+sudo dnf install postgresql postgresql-server-dev-15
+
+sudo systemctl stop postgresql-15
+
+sudo ln -s /usr/lib/postgresql/15/bin/* /usr/sbin/
+
+sudo dnf install python python3-pip
+
+sudo dnf install python3-testresources   
+
+sudo dnf install --upgrade setuptools 
+ 
+sudo dnf install psycopg2
+
+sudo dnf install patroni-etcd
+
+sudo dnf install python-etcd
