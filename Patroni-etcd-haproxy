@@ -2,20 +2,17 @@
 
 https://belajarlinux.id/high-availability-postgresql-cluster-menggunakan-patroni-dan-haproxy
 
-
 Kali ini kita akan membuat cluster postgresql tujuannya untuk high availability dan menunjang kebutuhan aplikasi tentunya.
-
-Berikut topologi yang akan kami gunakan
-
-
+Berikut topologi yang akan kami gunakan.
 Dari topologi diatas kita perlu 5 node server atau virtual machine atau instance yang dapat digunakan dengan detail sebagai berikut
 
-Name/Hostname	IP Address Lokal / Public	Keterangan
-Hamim-pg01 /node01	10.10.0.35	Postgresql, Patroni
-Hamim-pg02 /node02	10.10.0.36	Postgresql, Patroni
-Hamim-pg03 /node03	10.10.0.37	Postgresql, Patroni
-Hamim-etcd /node04	        10.10.0.39	Etcd
-Hamim-Haproxy /node05	10.10.0.38	HAProxy
+Name/Hostname	    IP Address Lokal / Public	Keterangan
+Hamim-pg01 /node01	 10.10.0.35	Postgresql, Patroni
+Hamim-pg02 /node02	 10.10.0.36	Postgresql, Patroni
+Hamim-pg03 /node03	 10.10.0.37	Postgresql, Patroni
+Hamim-etcd /node04	 10.10.0.39	Etcd
+Hamim-Haproxy /node05 10.10.0.38	HAProxy
+
 Keterangan:
 
 – Patroni: Digunakan untuk mengelola konfigurasi postgresql
