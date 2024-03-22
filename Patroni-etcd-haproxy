@@ -1,6 +1,4 @@
-# High Availability PostgreSQL Cluster Menggunakan Patroni dan HAProxy #
-
-https://belajarlinux.id/high-availability-postgresql-cluster-menggunakan-patroni-dan-haproxy
+# High Availability PostgreSQL Cluster Menggunakan Patroni, etcd dan HAProxy #
 
 Kali ini kita akan membuat cluster postgresql tujuannya untuk high availability dan menunjang kebutuhan aplikasi tentunya.
 Berikut topologi yang akan kami gunakan.
