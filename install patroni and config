@@ -10,7 +10,7 @@ sudo dnf install patroni-etcd
 sudo dnf install python-etcd
 yum install -y python3 python3-devel gcc
 yum install -y python-psycopg2
-yum install -y etcd
+sudo dnf --enablerepo=pgdg-rhel9-extras install -y etcd
 
 
 #Config Patroni:
