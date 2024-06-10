@@ -20,31 +20,31 @@ Pertama yang harus di lakukan yaitu melakukan update sistem operasi CentOS 8 And
 #Node 01#
 
 [root@node01 ~]# hostnamectl |grep hostname
-   Static hostname: node01.nurhamim.my.id
+   Static hostname: node01.local
 [root@node01 ~]#
 
 #Node02#
 
 [root@node02 ~]# hostnamectl |grep hostname
-   Static hostname: node02.nurhamim.my.id
+   Static hostname: node02.local
 [root@node02 ~]#
 
 #Node03#
 
 [root@node03 ~]# hostnamectl |grep hostname
-   Static hostname: node03.nurhamim.my.id
+   Static hostname: node03.local
 [root@node03 ~]#
 
 #Node04#
 
 [root@node04 ~]# hostnamectl |grep hostname
-   Static hostname: node04.nurhamim.my.id
+   Static hostname: node04.local
 [root@node04 ~]#
 
 #Node05#
 
 [root@node05 ~]# hostnamectl |grep hostname
-   Static hostname: node05.nurhamim.my.id
+   Static hostname: node05.local
 [root@node05 ~]#
 
 Selanjutnya menambahkan repository epel di node01, node02 dan node03 dan install repository paket manager seperti berikut:
