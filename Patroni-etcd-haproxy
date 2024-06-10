@@ -4,11 +4,11 @@ Kali ini kita akan membuat cluster postgresql tujuannya untuk high availability 
 Berikut topologi yang akan kami gunakan.
 
 Name/Hostname IP Address Lokal / Public	Keterangan:
-node01	 10.10.0.35    	Postgresql, Patroni
-node02	 10.10.0.36	      Postgresql, Patroni
-node03	 10.10.0.37	      Postgresql, Patroni
-node04	 10.10.0.39	      Etcd
-Haproxy   10.10.0.38	      HAProxy
+node01	 10.10.0.35         Postgresql, Patroni
+node02	 10.10.0.36         Postgresql, Patroni
+node03	 10.10.0.37         Postgresql, Patroni
+node04	 10.10.0.39         Etcd
+Haproxy   10.10.0.38         HAProxy
 
 Keterangan:
 – Patroni: Digunakan untuk mengelola konfigurasi postgresql
